@@ -1,0 +1,62 @@
+
+.container{
+    padding: 20px;
+}
+.bg-uus{
+    background-color: black;
+}
+.background{
+    background-image: url(/assets/Full\ Moon.jpg);
+}
+.company{
+    text-decoration: underline;
+    
+
+}
+.text-might{
+    font-size: 27px ;
+    
+}
+/* Header */
+header
+{position: fixed;
+top: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.6px;
+padding: 40px 100px;
+padding: 40px 100px;
+z-index: 100000;}
+
+header.sticky
+/* ABOUT */
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color:rgba(0, 0, 0, 0);
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+}
+/* BANNER */
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(/assets/Full\ Moon.jpg);
+    background-size: cover;
+}
